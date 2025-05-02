@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - BudgetApp</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome to BudgetApp</h1>
+    <button id="logout-btn">Log Out</button>
+
+    <div class="budget-form">
+      <h2>Add Expense</h2>
+      <form id="expense-form">
+        <input type="text" id="expense-name" placeholder="Expense Name" required>
+        <input type="number" id="expense-amount" placeholder="Amount" required>
+        <select id="expense-category">
+          <option value="food">Food</option>
+          <option value="transport">Transport</option>
+          <option value="leisure">Leisure</option>
+          <option value="rent">Rent</option>
+          <option value="activity">Activity</option>
+          <option value="insurance">Insurance</option>
+          <option value="other">Other</option>
+        </select>
+        <button type="submit">Add Expense</button>
+      </form>
+    </div>
+
+    <div class="summary-section">
+      <h2>Summary</h2>
+      <div id="summary-output">
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/script.js"></script>
+</body>
+</html>

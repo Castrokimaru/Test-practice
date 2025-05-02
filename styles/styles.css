@@ -1,0 +1,104 @@
+:root {
+    --dark-blue: #213448;
+    --medium-blue: #547792;
+    --light-blue: #94b4c1;
+    --lavender: #EECEFC;
+    --white: #ffffff;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+  }
+  .form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: var(--medium-blue);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: var(--lavender);
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--lavender);
+    color: var(--dark-blue);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: var(--white);
+    color: var(--medium-blue);
+  }
+  
+  form p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  form a {
+    color: var(--lavender);
+    text-decoration: underline;
+  }
+  
+  .dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .dashboard-container h1 {
+    text-align: center;
+    color: var(--lavender);
+  }
+  
+  #logout-btn {
+    float: right;
+    margin-top: -40px;
+    background-color: var(--lavender);
+    color: var(--dark-blue);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .budget-form, .summary-section {
+    background-color: var(--medium-blue);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .summary-section h2 {
+    margin-top: 0;
+  }
+  
+  #summary-output {
+    background-color: var(--light-blue);
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--dark-blue);
+  }
+  
