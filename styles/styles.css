@@ -102,3 +102,51 @@
     color: var(--dark-blue);
   }
   
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+    color: #FFFFFF;
+  }
+  header {
+    background-color: #000000;
+    color: #1DCD9F;
+    padding: 16px;
+    text-align: center;
+  }
+  main {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ [ type="text"] {
+    padding: 4px;
+    border: 2px solid #1DCD9F;
+    border-radius: 5px;
+    outline: none;
+    width: 400px;
+    max-width: 400px;
+    margin-bottom: 16px;
+    background-color: #222222; 
+    color: #FFFFFF; 
+  }
+  button {
+    background-color: #1DCD9F; 
+    color: #000000; 
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  button{
+    width: 80px;
+    height: 50px;
+  }
+  footer {
+    text-align: center;
+    color: #169976; 
+    margin-top: 32px;
+    align-items: center;
+  }
+
